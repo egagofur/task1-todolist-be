@@ -1,16 +1,6 @@
-## Installation
-
-Install my-project with npm
-
-```bash
-DATABASE_URL="postgresql://root:root@localhost:5432/task-todo"
-PORT= 4000
-
-```
-
 ## API Task 1 Todolist
 
-### instalasi:
+### Installation:
 
 - clone project ini
 - jalankan `yarn install`
