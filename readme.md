@@ -1,3 +1,31 @@
+## Installation
+
+Install my-project with npm
+
+```bash
+DATABASE_URL="postgresql://root:root@localhost:5432/task-todo"
+PORT= 4000
+
+```
+
+## API Task 1 Todolist
+
+### instalasi:
+
+- clone project ini
+- jalankan `yarn install`
+- buat file .env untuk menyimpan PORT
+
+```bash
+DATABASE_URL="postgresql://root:root@localhost:5432/task-todo"
+PORT= 4000
+
+```
+
+- buat migrasi prisma dengan cara
+  `npx prisma migrate dev`
+- start server dengan menjalankan `yarn dev`
+
 ## API
 
 ### Method: GET: ` /api/todos`
@@ -114,3 +142,13 @@
     "message": "Succes Detele Data"
 }
 ```
+
+## Tech Stack
+
+**Server:** Node, Express
+
+**ORM:** Prisma ORM
+
+## Authors
+
+- [@egagofur](https://www.github.com/egagofur)
