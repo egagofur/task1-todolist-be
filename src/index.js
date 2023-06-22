@@ -7,7 +7,7 @@ dotenv.config();
 app.use(cors());
 app.use(express.json());
 
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 const todoController = require("./todo/todo.controller");
 app.use("/api/todos", todoController);
