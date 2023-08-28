@@ -1,6 +1,3 @@
-//kominikasi dengan database
-//ganti ganti orm/ raw query gak menganggu service
-
 const prisma = require("../db");
 
 const findTodo = async () => {

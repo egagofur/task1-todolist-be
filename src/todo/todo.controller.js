@@ -1,4 +1,3 @@
-//layer req, res, dan validasi body
 const express = require("express");
 const {
   getAllTodo,

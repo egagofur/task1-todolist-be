@@ -1,5 +1,3 @@
-//handle bisnis logic
-
 const {
   findTodo,
   findTodoById,
